@@ -1,0 +1,26 @@
+{
+  "name": "Metrónomo de Directo",
+  "short_name": "Metrónomo",
+  "description": "Metrónomo con setlists para practicar y para el directo",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B0E13",
+  "theme_color": "#0B0E13",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
