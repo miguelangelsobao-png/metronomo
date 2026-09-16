@@ -279,9 +279,9 @@ body.edit .song-num{display:none;}
   body.edit #songList{display:flex;}
 }
 @media (orientation:landscape) and (max-height:540px){
-  .metro{display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;align-items:start;padding:10px 18px 16px;}
+  .metro{display:grid;grid-template-columns:1fr 1.05fr;gap:10px 22px;align-items:start;padding:10px 18px 14px;}
   .actions{grid-column:1/-1;}
-  .col-a,.col-b{gap:12px;}
+  .col-a,.col-b{gap:10px;}
   .bpm{font-size:clamp(56px,15vh,92px);}
   .nudge{width:48px;height:48px;}
   .tap,.go{height:52px;}
@@ -320,13 +320,13 @@ body.edit .song-num{display:none;}
             <div class="ends"><span>30</span><span>300</span></div>
           </div>
 
+        </div>
+
+        <div class="col-b">
           <div class="beats">
             <div class="beat-row" id="beatRow"></div>
             <p class="hint">Toca un tiempo: acento → normal → silencio</p>
           </div>
-        </div>
-
-        <div class="col-b">
           <div class="cards">
             <button class="card" id="cardMeter"><span class="k">Compás</span><span class="v" id="vMeter">4/4</span></button>
             <button class="card" id="cardSub"><span class="k">Subdiv.</span><span class="v" id="vSub">Negras</span></button>
